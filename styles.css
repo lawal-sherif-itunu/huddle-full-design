@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    padding: 2rem;
+    background-image: url(images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-color: hsl(193, 100%, 96%);
+    width: min(100%, 61rem);
+    margin-inline: auto;
+}
+
+header > img {
+    max-width: 7rem;
+    margin-top: .5rem;
+}
+
+header a.head {
+    float: right;
+    text-decoration: none;
+    color: hsl(192, 100%, 9%);
+    background-color: #fff;
+    padding: 0.2rem 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 7px 6px 9px -5px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 7px 6px 9px -5px rgba(0,0,0,0.35);
+    -moz-box-shadow: 7px 6px 9px -5px rgba(0,0,0,0.35);
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-1 {
+    margin-top: 5rem;
+    position: relative;
+}
+
+h1, h2, p {
+    color: hsl(192, 100%, 9%);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.page-1 p {
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+p {
+    color: hsl(208, 11%, 55%);
+}
+
+a.pink-button {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: .7rem .2rem;
+    max-width: 17rem;
+    margin-inline: auto;
+    border-radius: 2rem;
+    box-shadow: 7px 6px 9px -5px hsla(322, 100%, 66%,0.35);
+    -webkit-box-shadow: 7px 6px 9px -5px hsla(322, 100%, 66%,0.35);
+    -moz-box-shadow: 7px 6px 9px -5px hsla(322, 100%, 66%,0.35);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+a.pink-button:hover {
+    background-color: hsl(322, 100%, 81%);
+}
+
+.page-1 img {
+    display: block;
+    margin: 1;
+    margin-inline: auto;
+    width: 100%;
+}
+.page-2 {
+    position: relative;
+}
+
+main {
+    padding: 2rem;
+    width: min(100%, 61rem);
+    margin-inline: auto;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 1px -1px 9px -2px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 1px -1px 9px -2px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px -1px 9px -2px rgba(0,0,0,0.35);
+}
+
+.box h2 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.box p {
+    margin: 0;
+}
+
+.ready-click {
+    background-color: #fff;
+    box-shadow: 1px -1px 9px -2px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 1px -1px 9px -2px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px -1px 9px -2px rgba(0,0,0,0.35);
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    position: absolute;
+    bottom: -17rem;
+    box-sizing: border-box;
+    margin-inline: auto;
+}
+
+.ready-click h2 {
+    font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ready-click .pink-button {
+    margin: 0;
+    margin-inline: auto;
+}
+
+footer {
+    margin-top: 8rem;
+    background-color: hsl(192, 100%, 9%);
+    padding: 7rem 2rem 2rem 2rem;
+    margin-bottom: 1rem;
+    width: min(100%, 61rem);
+    margin-inline: auto;
+}
+
+footer h2, footer p {
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img.contact:first-of-type {
+    max-height: 1.5rem;
+}
+
+.nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+i.fa-brands {
+    color: #fff;
+    background-color: hsl(192, 100%, 9%);
+    border: 1px solid #fff;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.contact-address {
+    margin-bottom: 5rem;
+}
+
+footer img {
+    width: auto;
+}
+
+img.footer-logo {
+    color: #fff;
+    background-color:azure;
+    margin-bottom: 2rem;
+}
+
+.contact-add {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+p.copyright {
+    font-size: .7rem;
+    text-align: center;
+    display: block;
+}
+
+.attribution { font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    font-size: large;
+    color: hsl(322, 100%, 66%);
+}
+
+@media screen and (min-width: 41.2rem) {
+    header {
+        background-image: url(images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+    }
+
+    .page-1 {
+        box-sizing: border-box;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 2rem;
+    }
+
+    img.page-1-right {
+        width: 20rem;
+    }
+
+    .page-1-left h1, .page-1-left p {
+        text-align: left;
+    }
+
+    .page-2 {
+        display: grid;
+        gap: 2rem;
+    }
+
+    .box {
+        display: grid;
+        gap: 2.5rem;
+        margin: 0;
+        grid-template-columns: 30% 65%;
+    }
+
+    .grow, .your-users {
+        grid-template-columns: 65% 30%;
+    }
+
+    .box img {
+        max-width: 10rem;
+    }
+
+    .box h2, .box p {
+        text-align: left;
+    }
+
+    .right-position {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .left-position {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+    }
+    
+    .ready-click {
+        bottom: -15rem;
+    }
+
+    footer {
+        padding-top: 10rem;
+    }
+
+    .nav a {
+        margin-bottom: .5rem;
+        padding: 0;
+    }
+
+    .grid-footer {
+        display: grid;
+        grid-gap: 2rem;
+        grid-auto-flow: column;
+        grid-auto-rows: minmax(auto auto);
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+    
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        grid-column-start: 2;
+        grid-column-end: 4;        
+    }
+
+    .social-media {
+        height: 2rem;
+    }
+
+    p.copyright {
+        text-align: right;
+    }
+
+
+    .contact-address {
+        margin-bottom: 1rem;
+    }
+}
